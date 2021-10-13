@@ -1,5 +1,5 @@
 % Clase de Documento, formato libro
-\documentclass[11pt,letterpaper]{article}
+\documentclass[11pt,letterpaper]{report}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
@@ -16,7 +16,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \setlength{\headheight}{42pt}
-\lhead{Anteproyecto de Trabajo Final de Grado}
+\lhead{Trabajo Final de Grado}
 \rhead{
     \includegraphics[width=0.08\textwidth]{imagenes/undef}
 	\includegraphics[width=0.08\textwidth]{imagenes/iua}
@@ -25,7 +25,9 @@
 
 
 \begin{document}
+
 \input{portada.tex}
+
 \input{secciones/cuerpo.tex}
 
 \newpage
